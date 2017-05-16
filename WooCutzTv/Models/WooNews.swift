@@ -9,13 +9,11 @@
 import Foundation
 
 class WooNews: WooElement {
-    
-    let id: Int
+
+    // News Location? Type?
     
     init (id: Int, title: String, description: String, imagePreview: String) {
-        
-        self.id = id
-        super.init(type: .News, title: title, description: description,
+        super.init(id: id, type: .News, title: title, description: description,
                    imagePreview: imagePreview)
     }
 }

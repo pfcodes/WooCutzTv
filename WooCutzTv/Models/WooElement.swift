@@ -10,13 +10,14 @@ import Foundation
 
 class WooElement {
 
+    let id: Int
     let type: Woo
     let title: String
     let description: String
     let imagePreview: String
-
     
-    init(type: Woo, title: String, description: String, imagePreview: String) {
+    init(id: Int, type: Woo, title: String, description: String, imagePreview: String) {
+        self.id = id
         self.type = type
         self.title = title
         self.description = description
@@ -27,12 +28,3 @@ class WooElement {
         return self[element]
     }
 }
-
-/*
- func getListOfWooElements(from where: PullLocations, which element: Woo,
- howMany max: Int) -> WooElement {
- // Connect to API and gather JSON data
- // Create a new WooElement instance for each responce
- return self
- }
- */

@@ -10,12 +10,12 @@ import Foundation
 
 class WooTV: WooElement {
 
-    let id: Int
+    // Video Type: Stream from YouTube or CDN? 
+    // Advertisement-enabled?
     
     init (id: Int, title: String, description: String, imagePreview: String) {
         
-        self.id = id
-        super.init(type: .TV, title: title, description: description,
+        super.init(id: id, type: .TV, title: title, description: description,
                    imagePreview: imagePreview)
     }
 }
