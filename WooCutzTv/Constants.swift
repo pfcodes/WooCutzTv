@@ -6,27 +6,31 @@
 //  Copyright © 2017 phlfvry. All rights reserved.
 //
 
+enum Woo {
+    case TV, News, Services, Events, Connect
+}
+
+enum PullLocations {
+    case Home, External
+}
+
 struct Settings {
     
     // MARK: Global Constants
     let app_title = "WooCutz Tv"
-    let app_version = 0.01
+    let app_version = 0.00
     
     // MARK: Subscripts
     subscript(setting: String) -> String {
             return self[setting]
     }
     
-    subscript(setting: Float) -> Float {
+    subscript(setting: String) -> Float {
         return self[setting]
     }
     
-    subscript(setting: Int) -> Int {
+    subscript(setting: String) -> Int {
         return self[setting]
     }
     
-}
-
-enum Woo {
-   case TV, News, Services, Events, Connect
 }

@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+class WooNews: WooElement {
+    
+    let id: Int
+    
+    init (id: Int, title: String, description: String, imagePreview: String) {
+        
+        self.id = id
+        super.init(type: .News, title: title, description: description,
+                   imagePreview: imagePreview)
+    }
+}

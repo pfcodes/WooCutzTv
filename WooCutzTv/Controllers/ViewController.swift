@@ -21,13 +21,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func getWooElementFromServer(which element: Woo, limit max: Int) {
-        // Connect to API and gather JSON data
-        // Create a new WooVid instance for each responce
-        // Draw each instance in it's own table cell in the table view
-        // let tableCell[i] = WooVid(title: r, description: d, previewImage: i, videoURL: u)
-        // ?
-    }
+
     
     /*
     // MARK: - Navigation

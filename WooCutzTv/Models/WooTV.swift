@@ -5,28 +5,17 @@
 //  Created by Phil on 5/10/17.
 //  Copyright © 2017 phlfvry. All rights reserved.
 //
-import UIKit
 
-class WooTV {
+import Foundation
+
+class WooTV: WooElement {
 
     let id: Int
     
-    let title: String?
-    let description: String?
-    let previewImage: String?
-    let url: String?
-    
-    init (id: Int)
-    {
+    init (id: Int, title: String, description: String, imagePreview: String) {
+        
         self.id = id
-        self.title = ""
-        self.description = ""
-        self.previewImage = ""
-        self.url = ""
+        super.init(type: .TV, title: title, description: description,
+                   imagePreview: imagePreview)
     }
-    
-    subscript(element: String) -> String {
-        return self[element]
-    }
-
 }

@@ -17,6 +17,7 @@
 		4A69D6EB1EC8E8B9001B6E5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69D6DE1EC8E8B9001B6E5E /* ViewController.swift */; };
 		4A6C4BFB1EC3F29600278C76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C4BFA1EC3F29600278C76 /* AppDelegate.swift */; };
 		4A6C4C021EC3F29600278C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A6C4C011EC3F29600278C76 /* Assets.xcassets */; };
+		4ACF36001ECA7E8700A78FBF /* WooElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF35FF1ECA7E8700A78FBF /* WooElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4A6C4BFA1EC3F29600278C76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A6C4C011EC3F29600278C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A6C4C061EC3F29600278C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ACF35FF1ECA7E8700A78FBF /* WooElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		4A69D6D71EC8E8B9001B6E5E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4ACF35FF1ECA7E8700A78FBF /* WooElement.swift */,
 				4A69D6DA1EC8E8B9001B6E5E /* WooNews.swift */,
 				4A69D6DC1EC8E8B9001B6E5E /* WooTV.swift */,
 			);
@@ -186,6 +189,7 @@
 			files = (
 				4A69D6EA1EC8E8B9001B6E5E /* WooTV.swift in Sources */,
 				4A6C4BFB1EC3F29600278C76 /* AppDelegate.swift in Sources */,
+				4ACF36001ECA7E8700A78FBF /* WooElement.swift in Sources */,
 				4A69D6E31EC8E8B9001B6E5E /* TV.swift in Sources */,
 				4A69D6EB1EC8E8B9001B6E5E /* ViewController.swift in Sources */,
 				4A69D6E81EC8E8B9001B6E5E /* WooNews.swift in Sources */,
