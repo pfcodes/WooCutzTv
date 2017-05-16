@@ -8,18 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4A2788581EC4049700373425 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2788571EC4049700373425 /* Constants.swift */; };
-		4A69D6DF1EC8E8B9001B6E5E /* Connect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69D6CF1EC8E8B9001B6E5E /* Connect.swift */; };
-		4A69D6E01EC8E8B9001B6E5E /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69D6D01EC8E8B9001B6E5E /* Events.swift */; };
 		4A69D6E11EC8E8B9001B6E5E /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69D6D11EC8E8B9001B6E5E /* News.swift */; };
-		4A69D6E21EC8E8B9001B6E5E /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69D6D21EC8E8B9001B6E5E /* Services.swift */; };
 		4A69D6E31EC8E8B9001B6E5E /* TV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69D6D31EC8E8B9001B6E5E /* TV.swift */; };
 		4A69D6E41EC8E8B9001B6E5E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A69D6D51EC8E8B9001B6E5E /* Launch Screen.storyboard */; };
 		4A69D6E51EC8E8B9001B6E5E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A69D6D61EC8E8B9001B6E5E /* Storyboard.storyboard */; };
-		4A69D6E61EC8E8B9001B6E5E /* WooConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69D6D81EC8E8B9001B6E5E /* WooConnect.swift */; };
-		4A69D6E71EC8E8B9001B6E5E /* WooEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69D6D91EC8E8B9001B6E5E /* WooEvent.swift */; };
 		4A69D6E81EC8E8B9001B6E5E /* WooNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69D6DA1EC8E8B9001B6E5E /* WooNews.swift */; };
-		4A69D6E91EC8E8B9001B6E5E /* WooService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69D6DB1EC8E8B9001B6E5E /* WooService.swift */; };
-		4A69D6EA1EC8E8B9001B6E5E /* WooVid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69D6DC1EC8E8B9001B6E5E /* WooVid.swift */; };
+		4A69D6EA1EC8E8B9001B6E5E /* WooTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69D6DC1EC8E8B9001B6E5E /* WooTV.swift */; };
 		4A69D6EB1EC8E8B9001B6E5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69D6DE1EC8E8B9001B6E5E /* ViewController.swift */; };
 		4A6C4BFB1EC3F29600278C76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C4BFA1EC3F29600278C76 /* AppDelegate.swift */; };
 		4A6C4C021EC3F29600278C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A6C4C011EC3F29600278C76 /* Assets.xcassets */; };
@@ -27,18 +21,12 @@
 
 /* Begin PBXFileReference section */
 		4A2788571EC4049700373425 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		4A69D6CF1EC8E8B9001B6E5E /* Connect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connect.swift; sourceTree = "<group>"; };
-		4A69D6D01EC8E8B9001B6E5E /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
 		4A69D6D11EC8E8B9001B6E5E /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
-		4A69D6D21EC8E8B9001B6E5E /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		4A69D6D31EC8E8B9001B6E5E /* TV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TV.swift; sourceTree = "<group>"; };
 		4A69D6D51EC8E8B9001B6E5E /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		4A69D6D61EC8E8B9001B6E5E /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
-		4A69D6D81EC8E8B9001B6E5E /* WooConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooConnect.swift; sourceTree = "<group>"; };
-		4A69D6D91EC8E8B9001B6E5E /* WooEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooEvent.swift; sourceTree = "<group>"; };
 		4A69D6DA1EC8E8B9001B6E5E /* WooNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooNews.swift; sourceTree = "<group>"; };
-		4A69D6DB1EC8E8B9001B6E5E /* WooService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooService.swift; sourceTree = "<group>"; };
-		4A69D6DC1EC8E8B9001B6E5E /* WooVid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooVid.swift; sourceTree = "<group>"; };
+		4A69D6DC1EC8E8B9001B6E5E /* WooTV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooTV.swift; sourceTree = "<group>"; };
 		4A69D6DE1EC8E8B9001B6E5E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4A6C4BF71EC3F29600278C76 /* WooCutzTv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WooCutzTv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6C4BFA1EC3F29600278C76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,10 +48,7 @@
 		4A69D6CE1EC8E8B9001B6E5E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4A69D6CF1EC8E8B9001B6E5E /* Connect.swift */,
-				4A69D6D01EC8E8B9001B6E5E /* Events.swift */,
 				4A69D6D11EC8E8B9001B6E5E /* News.swift */,
-				4A69D6D21EC8E8B9001B6E5E /* Services.swift */,
 				4A69D6D31EC8E8B9001B6E5E /* TV.swift */,
 			);
 			path = Views;
@@ -81,11 +66,8 @@
 		4A69D6D71EC8E8B9001B6E5E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				4A69D6D81EC8E8B9001B6E5E /* WooConnect.swift */,
-				4A69D6D91EC8E8B9001B6E5E /* WooEvent.swift */,
 				4A69D6DA1EC8E8B9001B6E5E /* WooNews.swift */,
-				4A69D6DB1EC8E8B9001B6E5E /* WooService.swift */,
-				4A69D6DC1EC8E8B9001B6E5E /* WooVid.swift */,
+				4A69D6DC1EC8E8B9001B6E5E /* WooTV.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -202,19 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A69D6E01EC8E8B9001B6E5E /* Events.swift in Sources */,
-				4A69D6E21EC8E8B9001B6E5E /* Services.swift in Sources */,
-				4A69D6E61EC8E8B9001B6E5E /* WooConnect.swift in Sources */,
-				4A69D6EA1EC8E8B9001B6E5E /* WooVid.swift in Sources */,
+				4A69D6EA1EC8E8B9001B6E5E /* WooTV.swift in Sources */,
 				4A6C4BFB1EC3F29600278C76 /* AppDelegate.swift in Sources */,
 				4A69D6E31EC8E8B9001B6E5E /* TV.swift in Sources */,
-				4A69D6E71EC8E8B9001B6E5E /* WooEvent.swift in Sources */,
-				4A69D6E91EC8E8B9001B6E5E /* WooService.swift in Sources */,
 				4A69D6EB1EC8E8B9001B6E5E /* ViewController.swift in Sources */,
 				4A69D6E81EC8E8B9001B6E5E /* WooNews.swift in Sources */,
 				4A2788581EC4049700373425 /* Constants.swift in Sources */,
 				4A69D6E11EC8E8B9001B6E5E /* News.swift in Sources */,
-				4A69D6DF1EC8E8B9001B6E5E /* Connect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
